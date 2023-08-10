@@ -1,11 +1,15 @@
-import { header } from "./components/header";
+import { AboutMe, Header, CurrentWork, PastProjects} from "./components";
+
 import './App.css';
 
 function App() {
   return (
-    <div className="bg-slate-900 h-screen w-screen">
-      <h1 className='text-xl text-black'>Test</h1>
-      <header />
+    <div className="bg-slate-950 h-full w-screen">
+      <Header />
+      <AboutMe />
+      <CurrentWork />
+      <PastProjects />
+      
     </div>
   );
 }
