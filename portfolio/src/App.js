@@ -1,4 +1,4 @@
-import { AboutMe, Header, CurrentWork, PastProjects, SocialLinks} from "./components";
+import { AboutMe, NewHeader, CurrentWork, PastProjects, SocialLinks} from "./components";
 import { BrowserRouter } from "react-router-dom";
 
 import './App.css';
@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
     <div className="bg-slate-950 h-full w-screen">
 
-      <Header />
+      <NewHeader />
       <div id="about">
       <AboutMe />
       </div>
