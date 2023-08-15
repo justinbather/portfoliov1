@@ -3,7 +3,7 @@ import "../assets/css/wave.css";
 
 const AboutMe = () => {
     return (
-        <div className="flex flex-col justify-center items-center h-screen w-full pb-20">
+        <div className="flex flex-col justify-center items-center h-screen w-full pb-20 pt-20">
             
             <div className="text-center text-white py-10">
                 <h1 className="font-mono text-5xl">Hey there! <span className="wave">👋</span> </h1>
