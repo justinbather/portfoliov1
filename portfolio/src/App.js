@@ -4,22 +4,26 @@ import { BrowserRouter } from "react-router-dom";
 import './App.css';
 
 function App() {
+
+  /*
+  <div id="current-work">
+      <CurrentWork />
+      </div>
+      <div id="experience">
+      <PastProjects />
+      </div>
+      */
   
   return (
     <BrowserRouter>
-    <div className="bg-slate-950 h-full w-screen">
+    <div className="bg-[#f5f5f7] h-full w-screen">
 
       <NewHeader />
       <div id="about">
       <AboutMe />
       </div>
       <SocialLinks />
-      <div id="current-work">
-      <CurrentWork />
-      </div>
-      <div id="experience">
-      <PastProjects />
-      </div>
+      
       
     </div>
     </BrowserRouter>

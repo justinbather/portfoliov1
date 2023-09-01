@@ -35,7 +35,7 @@ const NewHeader = () => {
 
     return (
         <nav
-      className={`px-12 w-full flex items-center py-5 fixed top-0 z-20 bg-slate-950 ${
+      className={`px-12 w-full flex items-center py-5 fixed top-0 z-20 bg-[#f5f5f7] ${
         visible ? "shadow-md" : "shadow-none"
       } ${
         visible
@@ -45,21 +45,21 @@ const NewHeader = () => {
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         
-          <p className="text-white text-[36px] flex cursor-pointer font-mono">
+          <p className="font-inter font-bold text-4xl bg-gradient-to-r from-[#6e6e73] to-[#1d1d1f] bg-clip-text text-transparent drop-shadow-lg">
           <Link
           to="/"
           className="flex items-center gap-2"
           onClick={() => handleScroll("about")}
         >
-              {"{JB}"}
+              JB.
             </Link>
           </p>
         
-        <ul className="list-none hidden md:flex flex-row gap-10 text-[24px] font-bold font-mono cursor-pointer items-center">
+        <ul className="list-none hidden md:flex flex-row gap-10 text-[18px] font-bold font-inter cursor-pointer items-center">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
-              className="text-white transition ease-in-out hover:translate-y-[-4px]"
+              className="font-inter text-[#6e6e73] transition ease-in-out hover:translate-y-[-4px]"
             >
               <Link to={`#${nav.id}`} onClick={() => handleScroll(nav.id)}>
                 {nav.name}
@@ -67,7 +67,7 @@ const NewHeader = () => {
             </li>
           ))}
           <button
-            className="px-4 py-2 border border-white rounded-lg font-mono text-[18px] transition ease-in-out hover:bg-white/[.05]"
+            className="px-5 py-2 bg-[#0277ed] text-[17px] font-white text-center rounded-xl transition ease-in-out hover:translate-y-[-4px] hover:bg-[#0277ed]"
             onClick={() => window.open("../assets/justin-bather-resume.pdf")}
           >
             <p className="text-white">
@@ -100,19 +100,19 @@ const NewHeader = () => {
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}
-                  className="text-[#37AA9C] transition ease-in-out hover:translate-y-[-4px]"
+                  className="text-[#6e6e73] transition ease-in-out hover:translate-y-[-4px]"
                 >
                   
                     {nav.name}
                   
                 </li>
               ))}
-              <button className="px-4 py-2 border border-[#37AA9C] rounded-lg font-normal text-[18px] transition ease-in-out hover:bg-white/[.05]"
+              <button className="px-4 py-2 border border-[#6e6e73] rounded-lg font-normal text-[18px] transition ease-in-out hover:bg-white/[.05]"
                 onClick={() => window.open("../assets/justin-bather-resume.pdf")}
               >
-                <p className="text-white">
+                <p className="text-[#6e6e73]">
                   
-                    Resume
+                    resume
                   
                 </p>
               </button>

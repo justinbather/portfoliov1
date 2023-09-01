@@ -1,7 +1,7 @@
 import React from "react";
-import githubLogo from "../assets/github-logo.png";
-import linkedinLogo from "../assets/linkedin-logo.png";
-import mediumLogo from "../assets/medium-logo.png";
+import githubLogo from "../assets/github-grey.svg";
+import linkedinLogo from "../assets/linkedin-grey.svg";
+import mediumLogo from "../assets/medium-grey.png";
 
 
 const SocialLinks = () => {
@@ -21,7 +21,7 @@ const SocialLinks = () => {
       <a className="transition ease-in-out hover:translate-y-[-4px]" target="_blank" rel="noreferrer" href="https://www.medium.com/@justinbather">
       <img src={mediumLogo} alt="" className="w-10 h-10"></img>
       </a>
-      <div className="w-1 h-40 bg-gradient-to-b from-[#FFFFFF] to-[#020617]" />
+      <div className="w-1 h-40 bg-gradient-to-b from-[#1d1d1f] to-[#6e6e73] rounded-lg drop-shadow-lg" />
       </div>
     );
 };

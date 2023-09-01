@@ -8,7 +8,7 @@ import djangoLogo from "../assets/django-logo.png";
 
 const CurrentWork = () => {
     return (
-        <div className="flex flex-col h-screen w-screen justify-center bg-slate-950 items-center">
+        <div className="flex flex-col h-screen w-screen justify-center bg-[#f5f5f7] items-center">
             <div className="text-center text-white py-10 ">
                 <h1 className="font-mono text-3xl">I'm currently working on..</h1>
             </div>
