@@ -1,6 +1,6 @@
 import "../assets/css/wave.css";
-import CurrentWork from "./CurrentWork";
-import PastProjects from "./PastProjects";
+import CurrentWork from "./old-components/CurrentWork";
+import PastProjects from "./old-components/PastProjects";
 import reactLogo from "../assets/react-logo-grey.svg"
 import postgresLogo from "../assets/postgres-logo-grey.svg"
 import stripeLogo from "../assets/stripe-logo-grey.svg"
@@ -49,7 +49,7 @@ const AboutMe = () => {
                 <button className="bg-[#0277ed] text-white font-bold h-10 w-28 my-5 rounded-xl transition ease-in-out drop-shadow-lg hover:translate-y-[-4px] ">Let's Chat!</button>
             </div>
             </div>
-            <div className="w-full flex flex-col mt-50 border rounded-xl drop-shadow-md bg-white bg-opacity-70 backdrop-blur-lg">
+            <div className="w-full flex flex-col mt-50 rounded-xl drop-shadow-md bg-white bg-opacity-70 backdrop-blur-lg">
                 <h1 className="font-inter font-bold text-4xl px-5 py-5 text-[#6e6e73]">Experience</h1>
                     <br></br>
                 <div className="ml-8">
@@ -72,8 +72,12 @@ const AboutMe = () => {
                     </div>
 
                     <div className="flex flex-row gap-5 justify-center">
+                        
                         <button className="bg-[#0277ed] text-white font-bold h-10 w-28 my-5 rounded-xl transition ease-in-out drop-shadow-lg hover:translate-y-[-4px] ">Demo</button>
-                        <button className="border border-[#0277ed] text-[#0277ed] font-bold h-10 w-28 my-5 rounded-xl transition ease-in-out drop-shadow-lg hover:translate-y-[-4px] ">Code</button>
+                        
+                        <a target="_blank" rel="noreferrer" href="https://github.com/justinbather/campsitemanagementsystem">
+                            <button className="border border-[#0277ed] text-[#0277ed] font-bold h-10 w-28 my-5 rounded-xl transition ease-in-out drop-shadow-lg hover:translate-y-[-4px] ">Code</button>
+                        </a>
                     </div>
                 
 
@@ -98,8 +102,12 @@ const AboutMe = () => {
                     </div>
 
                     <div className="flex flex-row gap-5 justify-center">
-                        <button className="bg-[#0277ed] text-white font-bold h-10 w-28 my-5 rounded-xl transition ease-in-out drop-shadow-lg hover:translate-y-[-4px] ">Demo</button>
-                        <button className="border border-[#0277ed] text-[#0277ed] font-bold h-10 w-28 my-5 rounded-xl transition ease-in-out drop-shadow-lg hover:translate-y-[-4px] ">Code</button>
+                        <a target="_blank" rel="noreferrer" href="https://lazarus-method.herokuapp.com/">
+                            <button className="bg-[#0277ed] text-white font-bold h-10 w-28 my-5 rounded-xl transition ease-in-out drop-shadow-lg hover:translate-y-[-4px] ">Demo</button>
+                        </a>
+                        <a target="_blank" rel="noreferrer" href="https://github.com/justinbather/lazarus-method">
+                            <button className="border border-[#0277ed] text-[#0277ed] font-bold h-10 w-28 my-5 rounded-xl transition ease-in-out drop-shadow-lg hover:translate-y-[-4px] ">Code</button>
+                        </a>
                     </div>
 
                 <br></br>
@@ -108,7 +116,7 @@ const AboutMe = () => {
 
             </div>
 
-            <div className="w-full flex flex-col mt-20 border rounded-xl drop-shadow-md bg-white bg-opacity-70 backdrop-blur-lg">
+            <div className="w-full flex flex-col mt-20 mb-20 border rounded-xl drop-shadow-md bg-white bg-opacity-70 backdrop-blur-lg">
                 <h1 className="font-inter font-bold text-4xl px-5 py-5 text-[#6e6e73]">Education</h1>
                     <br></br>
                 <div className="ml-8">
@@ -129,11 +137,7 @@ const AboutMe = () => {
                         <img className="w-10 h-10" src={nodeLogo}></img>
                     </div>
 
-                    <div className="flex flex-row gap-5 justify-center">
-                        <button className="bg-[#0277ed] text-white font-bold h-10 w-28 my-5 rounded-xl transition ease-in-out drop-shadow-lg hover:translate-y-[-4px] ">Demo</button>
-                        <button className="border border-[#0277ed] text-[#0277ed] font-bold h-10 w-28 my-5 rounded-xl transition ease-in-out drop-shadow-lg hover:translate-y-[-4px] ">Code</button>
-                    </div>
-                
+                    
 
                     <br></br>
                     <br></br>
@@ -155,10 +159,7 @@ const AboutMe = () => {
                         <img className="w-10 h-10" src={sqlLogo}></img>
                     </div>
 
-                    <div className="flex flex-row gap-5 justify-center">
-                        <button className="bg-[#0277ed] text-white font-bold h-10 w-28 my-5 rounded-xl transition ease-in-out drop-shadow-lg hover:translate-y-[-4px] ">Demo</button>
-                        <button className="border border-[#0277ed] text-[#0277ed] font-bold h-10 w-28 my-5 rounded-xl transition ease-in-out drop-shadow-lg hover:translate-y-[-4px] ">Code</button>
-                    </div>
+                    
 
                 <br></br>
                 <br></br>

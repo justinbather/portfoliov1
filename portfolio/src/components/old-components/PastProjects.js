@@ -1,14 +1,14 @@
-import theFortThumbnail from "../assets/the-fort-thumbnail.jpeg";
-import lazarusThumbnail from "../assets/lazarus-icons-thumbnail.png";
-import trackrThumbnail from "../assets/trackr-thumbnail.png";
-import campsiteThumbnail from "../assets/campsite-thumbnail.png";
-import reactLogo from "../assets/react-logo.png";
-import postgresLogo from "../assets/postgres-logo.png";
-import stripeLogo from "../assets/stripe-logo.png";
-import djangoLogo from "../assets/django-logo.png";
-import herokuLogo from "../assets/heroku-logo.png";
-import jqueryLogo from "../assets/jquery-logo.png";
-import tailwindLogo from "../assets/tailwind-logo.svg";
+import theFortThumbnail from "../../assets/the-fort-thumbnail.jpeg";
+import lazarusThumbnail from "../../assets/lazarus-icons-thumbnail.png";
+import trackrThumbnail from "../../assets/trackr-thumbnail.png";
+import campsiteThumbnail from "../../assets/campsite-thumbnail.png";
+import reactLogo from "../../assets/react-logo.png";
+import postgresLogo from "../../assets/postgres-logo.png";
+import stripeLogo from "../../assets/stripe-logo.png";
+import djangoLogo from "../../assets/django-logo.png";
+import herokuLogo from "../../assets/heroku-logo.png";
+import jqueryLogo from "../../assets/jquery-logo.png";
+import tailwindLogo from "../../assets/tailwind-logo.svg";
 
 
 const PastProjects = () => {

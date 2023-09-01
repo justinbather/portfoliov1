@@ -1,8 +1,8 @@
-import theFortThumbnail from "../assets/fort-thumbnail.png";
-import reactLogo from "../assets/react-logo.png";
-import postgresLogo from "../assets/postgres-logo.png";
-import stripeLogo from "../assets/stripe-logo.png";
-import djangoLogo from "../assets/django-logo.png";
+import theFortThumbnail from "../../assets/fort-thumbnail.png";
+import reactLogo from "../../assets/react-logo.png";
+import postgresLogo from "../../assets/postgres-logo.png";
+import stripeLogo from "../../assets/stripe-logo.png";
+import djangoLogo from "../../assets/django-logo.png";
 
 
 
