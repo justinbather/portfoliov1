@@ -22,6 +22,14 @@ import githubIcon from "../assets/github-logo-grey.png"
 
 
 const AboutMe = () => {
+
+    const handleScroll = (targetId) => {
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+        targetElement.scrollIntoView(targetId);
+        }
+    };
+
     return (
         <div className="flex flex-row w-screen justify-evenly h-screen">
             <div className="flex flex-col w-1/2 justify-center pl-20 h-full" id="title">
@@ -49,7 +57,8 @@ const AboutMe = () => {
                 
             </div>
             <div className="flex flex-col w-full justify-center items-center">
-                <button className="bg-[#0277ed] text-white font-bold h-10 w-28 my-5 rounded-xl transition ease-in-out drop-shadow-lg hover:translate-y-[-4px] ">Let's Chat!</button>
+                <button className="bg-[#0277ed] text-white font-bold h-10 w-28 my-5 rounded-xl transition ease-in-out drop-shadow-lg hover:translate-y-[-4px]"
+                onClick={() => handleScroll("contact")}>Let's Chat!</button>
             </div>
             </div>
             <div className="w-full flex flex-col mt-50 rounded-xl drop-shadow-md bg-white bg-opacity-70 backdrop-blur-lg">
