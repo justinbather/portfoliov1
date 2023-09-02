@@ -149,8 +149,10 @@ const AboutMe = () => {
                     </ul>
                     <h3 className="font-inter font-regular text-xl px-5 text-[#6e6e73]">CS50 - Intro to Computer Science</h3>
                     <p className="font-inter font-bold text-sm pb-5 px-5 text-[#6e6e73]">Nov 2022 - Jan 2023</p>
-                    <p className="font-inter font-light text-lg px-5 text-[#6e6e73]">An in-production software that allows a Natural Medicine Doctor to provide an intuitive and interactive platform to accompany his practice. 
-                        This app allows users to track their progress and see real-time stats on their health journey. 100+ concurrent users.
+                    <p className="font-inter font-light text-lg px-5 text-[#6e6e73]">The rebirth of my Computer Science education from when I was 13. 
+                    During this course I got the chance to dust of my programming skills and learn new concepts with C. 
+                    Starting off with a low-level language taught me how everything works under hood which I'd taken granted of in the past.
+                     From here I took on client projects, mostly in Python and Django, but revisit C often.
                     </p>
                 </div>
                     <div className="flex flex-row w-full justify-center gap-5 mt-5">
