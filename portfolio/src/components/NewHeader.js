@@ -70,7 +70,7 @@ const NewHeader = () => {
           <a href={resume} download>
           <button
             className="px-5 py-2 bg-[#0277ed] text-[17px] font-white text-center rounded-xl transition ease-in-out hover:translate-y-[-4px] hover:bg-[#0277ed]"
-            onClick={() => window.open({resume})}
+           
           >
             
             <p className="text-white">
