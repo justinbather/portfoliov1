@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import {Link} from "react-router-dom";
+import resume from "../assets/justin-bather-resume-sept23.pdf"
 
 import navLinks from "../constants";
 
@@ -66,16 +67,19 @@ const NewHeader = () => {
                 </Link>
             </li>
           ))}
+          <a href={resume} download>
           <button
             className="px-5 py-2 bg-[#0277ed] text-[17px] font-white text-center rounded-xl transition ease-in-out hover:translate-y-[-4px] hover:bg-[#0277ed]"
-            onClick={() => window.open("../assets/justin-bather-resume.pdf")}
+            onClick={() => window.open({resume})}
           >
+            
             <p className="text-white">
               
                 Resume
               
             </p>
           </button>
+          </a>
         </ul>
         <div className="hover:bg-white/[.05] p-2 rounded-lg md:hidden">
           <svg

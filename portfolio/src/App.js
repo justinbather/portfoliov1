@@ -19,9 +19,9 @@ function App() {
     <div className="bg-[#f5f5f7] h-full w-screen">
 
       <NewHeader />
-      <div id="about">
+      
       <AboutMe />
-      </div>
+      
       <SocialLinks />
       
       
