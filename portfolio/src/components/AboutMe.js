@@ -85,9 +85,9 @@ const AboutMe = () => {
                     </div>
 
                     <div className="flex flex-row gap-5 justify-center">
-                        
+                        <a target="_blank" rel="noreferrer" href="https://campsite-management.netlify.app">
                         <button className="bg-[#0277ed] text-white font-bold h-10 w-28 my-5 rounded-xl transition ease-in-out drop-shadow-lg hover:translate-y-[-4px] ">Demo</button>
-                        
+                        </a>
                         <a target="_blank" rel="noreferrer" href="https://github.com/justinbather/campsitemanagementsystem">
                             <button className="border border-[#0277ed] text-[#0277ed] font-bold h-10 w-28 my-5 rounded-xl transition ease-in-out drop-shadow-lg hover:translate-y-[-4px] ">Code</button>
                         </a>
